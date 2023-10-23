@@ -14,8 +14,9 @@ body {
     margin: auto;
 }
 
-.container1 {
-    margin-left: 5%;
+#createNoteBtn {
+    width: fit-content;
+    margin-top: 20px;
 }
 
 .container2 {
@@ -27,7 +28,7 @@ body {
 }
 
 .container3 {
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 26%;
     left: 40%;
@@ -46,6 +47,11 @@ svg {
     color: gray;
 }
 
+svg:hover {
+    cursor: pointer;
+    color: limegreen;
+}
+
 #checkIcon {
     position: absolute;
     right: 17%;
@@ -56,4 +62,8 @@ svg {
     position: absolute;
     right: 5%;
     top: 4%;
+}
+
+.visible {
+    display: block;
 }
